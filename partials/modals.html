@@ -1,0 +1,40 @@
+<div class="modal" id="request-demo" role="dialog" aria-modal="true" aria-labelledby="request-demo-title" hidden>
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-content card">
+    <button class="modal-close" data-modal-close aria-label="Close modal">&times;</button>
+    <h2 id="request-demo-title">Request a demo</h2>
+    <p>Tell us a bit about your team and we’ll reach out to schedule a personalized walkthrough.</p>
+    <form data-ajax>
+      <div class="form-row">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Jane Doe" required />
+        </label>
+        <label>
+          Work email
+          <input type="email" name="email" placeholder="you@startup.com" required />
+        </label>
+      </div>
+      <label>
+        Company
+        <input type="text" name="company" placeholder="Company Inc." />
+      </label>
+      <label>
+        Team size
+        <select name="team_size">
+          <option value="1-5">1-5</option>
+          <option value="6-15">6-15</option>
+          <option value="16-50">16-50</option>
+          <option value="50+">50+</option>
+        </select>
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="4" placeholder="How can we help?"></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">Send request</button>
+      <div class="form-status" data-form-status></div>
+    </form>
+  </div>
+</div>
+

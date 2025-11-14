@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard • Startup Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/dark-mode.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div data-include="partials/header.html"></div>
+
+    <main class="section">
+      <div class="container">
+        <h1 class="section-title">Dashboard overview</h1>
+        <p class="section-description">Track your launch metrics and manage landing page experiments.</p>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <strong>12,480</strong>
+            <span>Visitors this month</span>
+          </div>
+          <div class="stat-card">
+            <strong>4.8%</strong>
+            <span>Signup conversion rate</span>
+          </div>
+          <div class="stat-card">
+            <strong>1,124</strong>
+            <span>New leads captured</span>
+          </div>
+          <div class="stat-card">
+            <strong>18</strong>
+            <span>Active experiments</span>
+          </div>
+        </div>
+        <div class="content" style="margin-top: 2rem;">
+          <div class="card">
+            <h2>Recent experiments</h2>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Status</th>
+                  <th>Variant</th>
+                  <th>Conversion lift</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Hero headline test</td>
+                  <td><span class="badge badge-success">Running</span></td>
+                  <td>B vs A</td>
+                  <td>+12.4%</td>
+                </tr>
+                <tr>
+                  <td>Pricing CTA color</td>
+                  <td><span class="badge badge-success">Running</span></td>
+                  <td>Green vs Blue</td>
+                  <td>+6.2%</td>
+                </tr>
+                <tr>
+                  <td>Testimonials layout</td>
+                  <td><span class="badge badge-warning">Scheduled</span></td>
+                  <td>Grid vs carousel</td>
+                  <td>Pending</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div data-include="partials/footer.html"></div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-handler.js"></script>
+  </body>
+</html>
+
+
+

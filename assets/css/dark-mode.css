@@ -1,0 +1,156 @@
+/*
+ Dark mode overrides for Startup Landing Page.
+ Apply by toggling the `dark-mode` class on the `<body>` element.
+*/
+
+body.dark-mode {
+  --color-bg: #0f172a;
+  --color-dark: #f8fafc;
+  --color-muted: #cbd5f5;
+  --color-border: rgba(148, 163, 184, 0.35);
+  --color-white: #111827;
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+}
+
+body.dark-mode header.hero {
+  background:
+    radial-gradient(circle at top left, rgba(79, 70, 229, 0.4), transparent 60%),
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.22), transparent 65%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.96) 0%, rgba(15, 23, 42, 1) 70%, rgba(15, 23, 42, 1) 100%);
+}
+
+body.dark-mode .feature-card,
+body.dark-mode .pricing-card,
+body.dark-mode .testimonial-card,
+body.dark-mode .card,
+body.dark-mode .stat-card,
+body.dark-mode .team-card,
+body.dark-mode .blog-card {
+  background-color: rgba(15, 23, 42, 0.9);
+  border-color: rgba(99, 102, 241, 0.35);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.35);
+}
+
+body.dark-mode .feature-card:hover,
+body.dark-mode .pricing-card:hover,
+body.dark-mode .testimonial-card:hover,
+body.dark-mode .blog-card:hover {
+  border-color: rgba(129, 140, 248, 0.6);
+}
+
+body.dark-mode .btn-primary {
+  color: #ffffff;
+}
+
+body.dark-mode .section-description,
+body.dark-mode .hero-subtitle {
+  color: rgba(226, 232, 240, 0.75);
+}
+
+body.dark-mode .pricing-card.popular {
+  background: linear-gradient(140deg, rgba(79, 70, 229, 0.95), rgba(129, 140, 248, 0.95));
+  color: #fff;
+}
+
+body.dark-mode .pricing-card.popular .btn-primary {
+  background: rgba(15, 23, 42, 0.25);
+  border: 1px solid rgba(248, 250, 252, 0.35);
+  color: #ffffff;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.35);
+}
+
+body.dark-mode .btn-outline {
+  border-color: rgba(226, 232, 240, 0.35);
+  color: rgba(226, 232, 240, 0.9);
+}
+
+body.dark-mode .btn-outline:hover {
+  background: rgba(226, 232, 240, 0.1);
+  color: #ffffff;
+}
+
+body.dark-mode .home2-hero .btn-outline,
+body.dark-mode .home2 .cta-banner .btn-outline {
+  border-color: rgba(226, 232, 240, 0.35);
+  color: rgba(226, 232, 240, 0.88);
+}
+
+body.dark-mode .home2-hero .btn-outline:hover,
+body.dark-mode .home2 .cta-banner .btn-outline:hover {
+  background: rgba(226, 232, 240, 0.08);
+  color: #ffffff;
+}
+
+body.dark-mode .clients-logos {
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.65), rgba(15, 23, 42, 0.85));
+  border-radius: 24px;
+  padding: 2rem;
+}
+
+body.dark-mode .clients-logos img {
+  opacity: 1;
+  filter: none;
+  mix-blend-mode: normal;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: rgba(15, 23, 42, 0.85);
+  color: var(--color-dark);
+  border-color: rgba(99, 102, 241, 0.35);
+}
+
+body.dark-mode input:focus,
+body.dark-mode textarea:focus,
+body.dark-mode select:focus {
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.25);
+}
+
+body.dark-mode .footer {
+  background: #020617;
+  color: rgba(226, 232, 240, 0.75);
+}
+
+body.dark-mode .footer-socials a {
+  background: rgba(30, 41, 59, 0.65);
+  color: #ffffff;
+}
+
+body.dark-mode .footer-socials a:hover {
+  background: rgba(129, 140, 248, 0.85);
+  color: #ffffff;
+}
+
+body.dark-mode .footer-brand h3 {
+  color: #fff;
+}
+
+body.dark-mode .site-header {
+  background-color: rgba(15, 23, 42, 0.85);
+  border-bottom-color: rgba(148, 163, 184, 0.3);
+}
+
+body.dark-mode .pricing-card.popular .badge {
+  background: rgba(15, 23, 42, 0.5);
+  color: #f8fafc;
+}
+
+body.dark-mode .nav-menu a {
+  color: rgba(226, 232, 240, 0.75);
+}
+
+body.dark-mode .nav-menu a.is-active,
+body.dark-mode .nav-menu a:hover {
+  color: #93c5fd;
+}
+
+body.dark-mode .nav-toggle-bar {
+  background: rgba(226, 232, 240, 0.85);
+}
+
+body.dark-mode .dark-toggle {
+  background: rgba(148, 163, 184, 0.3);
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact • Startup Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/dark-mode.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div data-include="partials/header.html"></div>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <nav class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span>Contact</span>
+          </nav>
+          <h1 class="section-title is-centered">Let’s build something great together</h1>
+          <p class="section-description is-centered">Have questions about plans, licensing, or collaboration? We’d love to hear from you.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <div class="card contact-card">
+            <form data-ajax>
+              <div class="form-row">
+                <label class="form-field">
+                  <span>Name</span>
+                  <input type="text" name="name" placeholder="Jane Doe" required />
+                </label>
+                <label class="form-field">
+                  <span>Email</span>
+                  <input type="email" name="email" placeholder="you@startup.com" required />
+                </label>
+              </div>
+              <label class="form-field">
+                <span>Company</span>
+                <input type="text" name="company" placeholder="Company Inc." />
+              </label>
+              <label class="form-field">
+                <span>How can we help?</span>
+                <textarea name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary">Send message</button>
+              <div class="form-status" data-form-status></div>
+            </form>
+          </div>
+          <div class="contact-map" data-animate="scale-in">
+            <iframe
+              title="Startup Landing HQ"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509413!2d144.95373531592535!3d-37.81627974201902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5775d613c0b0e0!2sStartup%20Hub!5e0!3m2!1sen!2sau!4v1672531200000!5m2!1sen!2sau"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-include="partials/footer.html"></div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-handler.js"></script>
+  </body>
+</html>

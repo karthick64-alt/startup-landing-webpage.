@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In • Startup Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/dark-mode.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div data-include="partials/header.html"></div>
+
+    <main class="auth-section">
+      <div class="container auth-wrapper">
+        <div class="card auth-card">
+          <h1>Welcome back</h1>
+          <p class="auth-subtitle">Log in to manage your landing pages, experiments, and community resources.</p>
+          <form action="#" method="post">
+            <label class="form-field">
+              <span>Email address</span>
+              <input type="email" name="email" placeholder="you@startup.com" required />
+            </label>
+            <label class="form-field">
+              <span>Password</span>
+              <input type="password" name="password" placeholder="••••••••" required />
+            </label>
+            <div class="form-field" style="align-items: center; display: flex; justify-content: space-between;">
+              <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: 500;">
+                <input type="checkbox" name="remember" />
+                <span>Remember me</span>
+              </label>
+              <a href="#" style="font-weight: 600; color: var(--color-primary);">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Sign in</button>
+          </form>
+          <p class="auth-note">
+            New to Startup Landing?
+            <a href="register.html">Create an account</a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

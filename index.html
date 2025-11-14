@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/dark-mode.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div data-include="partials/preloader.html"></div>
+    <div data-include="partials/header.html"></div>
+
+    <main>
+      <header class="hero">
+        <div class="container">
+          <div class="hero-layout">
+            <div class="hero-content">
+              <h1 class="hero-title" data-animate="fade-up">Launch your next product in half the time.</h1>
+              <p class="hero-subtitle" data-animate="fade-up">
+                Startup Landing helps modern teams validate ideas, capture leads, and convert visitors into happy customers.
+              </p>
+              <div class="hero-cta">
+                <a class="btn btn-primary" href="register.html">Start free trial</a>
+                <a class="btn btn-outline" href="#" data-modal-open="request-demo">Request a demo</a>
+              </div>
+              <div class="hero-metrics">
+                <div class="metric">
+                  <strong data-animate="fade-up" class="delay-1">6k+</strong>
+                  <span>Teams launched</span>
+                </div>
+                <div class="metric">
+                  <strong data-animate="fade-up" class="delay-2">140%</strong>
+                  <span>Average ROI</span>
+                </div>
+                <div class="metric">
+                  <strong data-animate="fade-up" class="delay-3">2.5×</strong>
+                  <span>Faster iterations</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero-media" data-animate="scale-in">
+              <img src="https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg" alt="Product dashboard preview" />
+            </div>
+          </div>
+          <div class="clients-logos">
+            <img src="assets/img/logos/amazon.svg" alt="Amazon" data-animate="fade-up" />
+            <img src="assets/img/logos/microsoft.svg" alt="Microsoft" class="delay-1" data-animate="fade-up" />
+            <img src="assets/img/logos/ibm.svg" alt="IBM" class="delay-2" data-animate="fade-up" />
+            <img src="assets/img/logos/spotify.svg" alt="Spotify" class="delay-3" data-animate="fade-up" />
+            <img src="assets/img/logos/adobe.svg" alt="Adobe" class="delay-4" data-animate="fade-up" />
+          </div>
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Powerful toolkit</span>
+            <h2 class="section-title">Everything you need to launch and scale</h2>
+            <p class="section-description">
+              A flexible landing page system built on reusable components, ready-to-ship marketing pages, and conversion-focused layouts.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card" data-animate="fade-up">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M13 2 4 13h6l-1 9 9-11h-6l1-9z" fill="currentColor" />
+                </svg>
+              </div>
+              <h3>Lightning-fast setup</h3>
+              <p>Assemble launch-ready pages in minutes with modular sections designed for startups.</p>
+              <a href="features.html">Explore how →</a>
+            </article>
+            <article class="feature-card delay-1" data-animate="fade-up">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M3 21v-2.6l8.1-8.1 2.6 2.6L5.6 21H3zm9.4-9.4 2.6 2.6 1.1-1.1a3.5 3.5 0 0 0 4.9-4.9l-1.8-1.8-1.9 1.9-2.3-2.3 1.9-1.9-1.8-1.8a3.5 3.5 0 0 0-4.9 4.9l-1.1 1.1 2.6 2.6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <h3>Flexible components</h3>
+              <p>Customize without code using accessible colors, font scales, and responsive layouts.</p>
+              <a href="docs/documentation.html">Browse components →</a>
+            </article>
+            <article class="feature-card delay-2" data-animate="fade-up">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 19h16v2H4a1 1 0 0 1-1-1V5h2v14zm3-3 3.5-3.5 2.3 2.3 5-5L20 11l-5.7 5.7-2.3-2.3L7 18z" fill="currentColor" />
+                </svg>
+              </div>
+              <h3>Built to convert</h3>
+              <p>Capture leads with optimized forms, testimonials, pricing tables, and FAQ layouts.</p>
+              <a href="pricing.html">Compare plans →</a>
+            </article>
+            <article class="feature-card delay-3" data-animate="fade-up">
+              <div class="icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M17 9V7a5 5 0 1 0-10 0v2H5v12h14V9h-2zm-8-2a3 3 0 1 1 6 0v2H9V7zm8 4v8H7v-8h10zm-5 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <h3>Secure by default</h3>
+              <p>Follow best practices with GDPR-ready forms, privacy utilities, and modular scripts.</p>
+              <a href="privacy-policy.html">Privacy policy →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container home2-layout">
+          <div class="mockup" data-animate="scale-in">
+            <img src="https://images.pexels.com/photos/1367275/pexels-photo-1367275.jpeg" alt="Product dashboard preview" />
+          </div>
+          <div class="details">
+            <span class="section-subtitle">Why teams choose us</span>
+            <h2>Design, launch, and iterate without friction</h2>
+            <p>
+              Startup Landing ships with robust documentation, modular SCSS structure, and finely tuned JavaScript utilities—giving your whole team a
+              single source of truth for marketing pages.
+            </p>
+            <ul class="feature-list">
+              <li>Figma file included for rapid prototyping</li>
+              <li>SEO-friendly markup with semantic structure</li>
+              <li>Dark mode support and accessibility emphasis</li>
+              <li>Ready to integrate with your favorite frameworks</li>
+            </ul>
+            <a class="btn btn-outline" href="features.html">See features in depth</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Testimonials</span>
+            <h2 class="section-title">Loved by product-led teams</h2>
+          </div>
+          <div class="testimonial-carousel">
+            <article class="testimonial-card" data-animate="fade-up">
+              <p>
+                “This template helped us validate our SaaS launch in weeks instead of months. The modular sections saved our design team countless hours.”
+              </p>
+              <div class="testimonial-author">
+                <img src="https://media.istockphoto.com/id/2244369297/photo/happy-woman-enjoying-freedom-and-fresh-air-on-road-trip.jpg?s=612x612&w=0&k=20&c=5FtgC2FiKCl75mHlWci4pe3fJNqgwrlJK3b58jH_pGw=" alt="Customer" />
+                <div>
+                  <h4>Olivia Watts</h4>
+                  <span>Head of Marketing, Flux.io</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card delay-1" data-animate="fade-up">
+              <p>“The dark mode support and documentation made it easy to align the marketing site with our product experience.”</p>
+              <div class="testimonial-author">
+                <img src="https://media.istockphoto.com/id/2221069869/photo/homeless-poverty-and-thinking-with-man-in-park-for-depression-unemployment-rate-and-winter.jpg?s=612x612&w=0&k=20&c=meljBdnf2zWkQ1xRY3Q8sh0lZtVcmPmOeBhCE5t7L1c=" alt="Customer" />
+                <div>
+                  <h4>Nik Patel</h4>
+                  <span>Founder, LaunchLayer</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card delay-2" data-animate="fade-up">
+              <p>“Everything we needed: polished layouts, responsive interactions, and a cohesive brand system for our new product launch.”</p>
+              <div class="testimonial-author">
+                <img src="https://media.istockphoto.com/id/469958263/photo/sunny-girl.jpg?s=612x612&w=0&k=20&c=WA4wwLaiuqYIafBRE9MX_1yYQkuZlnCuuX-73F7GNmA=" alt="Customer" />
+                <div>
+                  <h4>Sara Jensen</h4>
+                  <span>Product Designer, Aurora Labs</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">Pricing</span>
+            <h2 class="section-title">Choose a plan that grows with you</h2>
+          </div>
+          <div class="pricing-grid">
+            <div class="pricing-card" data-animate="fade-up">
+              <h3>Starter</h3>
+              <p>Perfect for lean teams launching their first product.</p>
+              <div class="price">$29<span>/mo</span></div>
+              <ul>
+                <li>All core sections</li>
+                <li>Email capture forms</li>
+                <li>Basic support</li>
+                <li>Free trial</li>
+              </ul>
+              <a class="btn btn-outline" href="register.html">Get Starter</a>
+            </div>
+            <div class="pricing-card popular" data-animate="fade-up">
+              
+              <h3>Growth</h3>
+              <p>Scale faster with advanced sections and automation.</p>
+              <div class="price">$79<span>/mo</span></div>
+              <ul>
+                <li>Everything in Starter</li>
+                <li>Advanced analytics</li>
+                <li>Priority support</li>
+                <li>Integrations toolkit</li>
+              </ul>
+              <a class="btn btn-primary" href="register.html">Choose Growth</a>
+            </div>
+            <div class="pricing-card" data-animate="fade-up">
+              <h3>Enterprise</h3>
+              <p>Custom solutions for large organizations and agencies.</p>
+              <div class="price">Let's talk</div>
+              <ul>
+                <li>Dedicated success manager</li>
+                <li>Team onboarding</li>
+                <li>Custom design support</li>
+                <li>Free trial</li>
+              </ul>
+              <a class="btn btn-outline" href="contact.html">Contact sales</a>
+            </div>
+          
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-subtitle">From the blog</span>
+            <h2 class="section-title">Insights for product builders</h2>
+          </div>
+          <div class="blog-list">
+            <article class="blog-card" data-animate="fade-up">
+              <img src="https://images.pexels.com/photos/12885859/pexels-photo-12885859.jpeg" alt="Blog cover" />
+              <div class="content">
+                <div class="meta">Product • 6 min read</div>
+                <h3>How to validate your SaaS idea in under 30 days</h3>
+                <p>Use this repeatable process to ship MVP landing pages, collect feedback, and iterate quickly.</p>
+                <a href="blog-details.html">Read more</a>
+              </div>
+            </article>
+            <article class="blog-card delay-1" data-animate="fade-up">
+            <img src="https://media.istockphoto.com/id/2239914696/photo/ai-workflow-automation-artificial-intelligence-software-interface-nodes-triggers-data-tool.jpg?b=1&s=612x612&w=0&k=20&c=YgqlIPL0FdEEmtW22_HpzxzJMhOhxINJExZAu58yOxk=" alt="Blog cover" />
+              <div class="content">
+                <div class="meta">Design • 8 min read</div>
+                <h3>Designing polished dark mode experiences</h3>
+                <p>Lessons learned from building accessible dark mode styles that match your brand.</p>
+                <a href="blog-details.html">Read more</a>
+              </div>
+            </article>
+            <article class="blog-card delay-2" data-animate="fade-up">
+            <img src="https://images.pexels.com/photos/34692635/pexels-photo-34692635.jpeg" alt="Blog cover" />
+            
+              <div class="content">
+                <div class="meta">Growth • 5 min read</div>
+                <h3>Increasing conversion with social proof</h3>
+                <p>Create trust with testimonials, metrics, and case studies throughout your landing pages.</p>
+                <a href="blog-details.html">Read more</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-banner">
+            <h2>Launch your next big idea today.</h2>
+            <p>Get instant access to modular layouts, Figma files, and polished marketing pages that help you ship faster.</p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="register.html">Start for free</a>
+              <a class="btn btn-outline" href="contact.html">Talk to sales</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-include="partials/footer.html"></div>
+    <div data-include="partials/modals.html"></div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form-handler.js"></script>
+  </body>
+</html>

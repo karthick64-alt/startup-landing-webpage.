@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 32" role="img" aria-labelledby="title">
+  <title>Microsoft Logo</title>
+  <rect width="120" height="32" fill="none" rx="6" />
+  <g transform="translate(8 6)">
+    <rect width="8" height="8" fill="#F25022" />
+    <rect x="10" width="8" height="8" fill="#7FBA00" />
+    <rect y="10" width="8" height="8" fill="#00A4EF" />
+    <rect x="10" y="10" width="8" height="8" fill="#FFB900" />
+  </g>
+  <text x="32" y="21" font-family="'Inter', Arial, sans-serif" font-size="16" font-weight="600" fill="#111827">Microsoft</text>
+</svg>
+
+
+
+

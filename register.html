@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Started • Startup Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/dark-mode.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div data-include="partials/header.html"></div>
+
+    <main class="auth-section">
+      <div class="container auth-wrapper">
+        <div class="card auth-card">
+          <h1>Start your free trial</h1>
+          <p class="auth-subtitle">Create an account to access modular layouts, live experiments, and the Startup Landing community.</p>
+          <form action="#" method="post">
+            <div class="form-row">
+              <label class="form-field">
+                <span>First name</span>
+                <input type="text" name="firstName" placeholder="Jordan" required />
+              </label>
+              <label class="form-field">
+                <span>Last name</span>
+                <input type="text" name="lastName" placeholder="Lee" required />
+              </label>
+            </div>
+            <label class="form-field">
+              <span>Work email</span>
+              <input type="email" name="email" placeholder="you@startup.com" required />
+            </label>
+            <label class="form-field">
+              <span>Password</span>
+              <input type="password" name="password" placeholder="Create a secure password" minlength="8" required />
+            </label>
+            <label class="form-field">
+              <span>Company</span>
+              <input type="text" name="company" placeholder="Startup Landing" />
+            </label>
+            <label class="form-field" style="display: flex; align-items: flex-start; gap: 0.75rem; font-weight: 500;">
+              <input type="checkbox" name="terms" required style="margin-top: 0.4rem;" />
+              <span>
+                I agree to the <a href="privacy-policy.html" style="color: var(--color-primary); font-weight: 600;">privacy policy</a> and terms of service.
+              </span>
+            </label>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Create account</button>
+          </form>
+          <p class="auth-note">
+            Already have an account?
+            <a href="login.html">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
